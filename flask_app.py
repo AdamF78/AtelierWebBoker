@@ -32,6 +32,10 @@ def presentation():
 def loisirs():
     return "Mes loisirs sont la programmation, les jeux vidéo et le sport."
 
+@app.get("/bonjour/<prenom>")
+def bonjour(prenom):
+    return f"<h1>Bonjour {prenom} !</h1>"
+
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
