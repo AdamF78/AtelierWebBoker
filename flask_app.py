@@ -73,6 +73,10 @@ def secret():
 def page_introuvable(erreur):
     return render_template("404.html"), 404
 
+
+
+
+
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
