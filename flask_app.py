@@ -104,9 +104,7 @@ def api_heure():
 
 
 
-@app.get("/horloge")
-def horloge():
-    return render_template("horloge.html")
+
 
 
 # ---------------------------------------------------------------
