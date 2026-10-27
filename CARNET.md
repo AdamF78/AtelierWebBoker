@@ -1,10 +1,10 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom :**Frere
 
-**Prénom :** 
+**Prénom :** Adam
 
-**Adresse de mon site :** https://______.pythonanywhere.com
+**Adresse de mon site :**https://magnusadam.pythonanywhere.com/
 
 > Modifiez ce fichier directement sur GitHub (icône crayon ✏️) pour répondre aux questions de chaque exercice.
 > Écrivez avec vos propres mots : une réponse courte et juste vaut mieux qu'un long copier-coller ! 🙂
@@ -15,27 +15,27 @@
 
 1. Où se trouve physiquement le code qui fabrique votre page : sur votre ordinateur, sur GitHub ou sur PythonAnywhere ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_  Il se trouve sur le serveur pythonanywhere, GitHub sert de dépôt de sauvegarde/transfert et l'ordinateur sert de poste de travail local.
 
 2. Pourquoi votre voisin(e) peut-il voir votre site, alors que vous n'avez rien installé sur son ordinateur ?
 
-   > _Ma réponse :_ 
-
+   > _Ma réponse :_  Parceque le site est hébergé sur un serveur publique accessible 24/7
+ 
 ---
 
 ## 🟢 Exercice 2 — Les URL et les routes
 
 1. Dans l'URL `https://www.google.com/maps`, quel est le nom de domaine ? Quel est le chemin ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ www.google.com
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_  Ce message (erreur 404) signifie que la page ou la ressource demandée n'existe pas à cette adresse. Il a été envoyé par le **serveur**.
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ La deuxième fonction écrase la première. Flask renvoie une erreur au démarrage ou bloque le rechargement car deux routes ou fonctions ne peuvent pas partager le même identifiant.
 
 ---
 
@@ -43,15 +43,18 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_  le serveur envoie du code de texte brut , mais le navigateur l'interprete et l'affiche  sous forme de page visuelle structurée
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_  <h1> : Définit le titre principal de la page.
+ <p> : Définit un paragraphe de texte.
+<ul> : Crée une liste à puces (non ordonnée).
+ <li> : Représente un élément individuel au sein d'une liste.
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_  parceque la balise image contient une url externe, c'est le navigateur du visiteur qui va direct la telecharger
 
 ---
 
